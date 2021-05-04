@@ -1,0 +1,33 @@
+Intersection 1, image 0.JPG
+Found 1 arrows
+Arrow direction: right
+Time to reach next intersection: 2 seconds 
+
+Intersection 2, image 0-right.JPG
+Found 1 arrows
+Arrow direction: right
+Time to reach next intersection: 6 seconds 
+
+Intersection 3, image 1-right.JPG
+Found 1 arrows
+Arrow direction: left
+Time to reach next intersection: 6 seconds 
+
+Intersection 4, image 2-left.JPG
+Found 1 arrows
+Arrow direction: right
+Time to reach next intersection: 2 seconds 
+
+Intersection 5, image 3-right.JPG
+Found 1 arrows
+Arrow direction: right
+Time to reach next intersection: 6 seconds 
+
+Intersection 6, image 4-right.JPG
+Found 1 arrows
+Arrow direction: right
+Time to reach next intersection: 6 seconds 
+
+Intersection 7, image 5-right.JPG
+Found 2 arrows
+Final Destination!
