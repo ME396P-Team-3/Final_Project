@@ -6,8 +6,8 @@ cascPath = "cascade_right.xml"
 cascPath2 = "cascade_left.xml"
 
 # Create the haar cascade
-faceCascade = cv2.CascadeClassifier(cascPath)
-faceCascade2 = cv2.CascadeClassifier(cascPath2)
+arrowCascade = cv2.CascadeClassifier(cascPath)
+arrowCascade2 = cv2.CascadeClassifier(cascPath2)
 
 i = 0
 
@@ -19,13 +19,13 @@ with open('.\\output\\output.txt', 'w') as f:
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
     # Detect arrows in the image
-    arrows = faceCascade.detectMultiScale(
+    arrows = arrowCascade.detectMultiScale(
         gray,
         scaleFactor=1.1,
         minNeighbors=5,
         minSize=(30, 30),
     )
-    arrows2 = faceCascade2.detectMultiScale(
+    arrows2 = arrowCascade2.detectMultiScale(
         gray,
         scaleFactor=1.1,
         minNeighbors=5,
@@ -74,13 +74,13 @@ with open('.\\output\\output.txt', 'w') as f:
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
         # Detect arrows in the image
-        arrows = faceCascade.detectMultiScale(
+        arrows = arrowCascade.detectMultiScale(
             gray,
             scaleFactor=1.1,
             minNeighbors=5,
             minSize=(30, 30),
         )
-        arrows2 = faceCascade2.detectMultiScale(
+        arrows2 = arrowCascade2.detectMultiScale(
             gray,
             scaleFactor=1.1,
             minNeighbors=5,
