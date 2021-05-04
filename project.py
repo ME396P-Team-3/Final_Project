@@ -11,7 +11,7 @@ faceCascade2 = cv2.CascadeClassifier(cascPath2)
 
 i = 0
 
-with open('output.txt', 'w') as f:
+with open('.\\output\\output.txt', 'w') as f:
     sys.stdout = f
     # Read the image
     imagePath = (f".\\input\\12 arrow_pics\\{i}.JPEG")
@@ -55,12 +55,12 @@ with open('output.txt', 'w') as f:
 
     if w< 200 and h<200: 
         cv2.imshow(f"arrows found in {i}.JPEG", image) 
-        cv2.imwrite(f"{i}.JPG", image) 
+        cv2.imwrite(f".\\output\\{i}.JPG", image) 
         cv2.waitKey(2000) 
         print('Time to reach next intersection: 2 seconds \n')
     else: 
         cv2.imshow(f"arrows found in {i}.JPEG", image) 
-        cv2.imwrite(f"{i}.JPG", image) 
+        cv2.imwrite(f".\\output\\{i}.JPG", image) 
         cv2.waitKey(6000) 
         print('Time to reach next intersection: 6 seconds \n')  
 
@@ -99,7 +99,7 @@ with open('output.txt', 'w') as f:
             
             print(f"Found {numarrows} arrows")
             cv2.imshow(f"arrows found in {i}-{direction}.JPEG", image) 
-            cv2.imwrite(f"{i}-{direction}.JPG", image)
+            cv2.imwrite(f".\\output\\{i}-{direction}.JPG", image)
             cv2.waitKey(6000) 
             print("Final Destination!")
             exit()
@@ -125,12 +125,12 @@ with open('output.txt', 'w') as f:
 
         if w< 200 and h<200: 
             cv2.imshow(f"arrows found in {i}-{direction}.JPEG", image) 
-            cv2.imwrite(f"{i}-{direction}.JPG", image) 
+            cv2.imwrite(f".\\output\\{i}-{direction}.JPG", image) 
             cv2.waitKey(2000) 
             print('Time to reach next intersection: 2 seconds \n')
         else: 
             cv2.imshow(f"arrows found in {i}-{direction}.JPEG", image) 
-            cv2.imwrite(f"{i}-{direction}.JPG", image) 
+            cv2.imwrite(f".\\output\\{i}-{direction}.JPG", image) 
             cv2.waitKey(6000)   
             print('Time to reach next intersection: 6 seconds \n')    
 
