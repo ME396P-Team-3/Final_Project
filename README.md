@@ -16,3 +16,9 @@ We’ve also included all the input pictures of the intersections in the “inpu
 ~~~Christina Addendum~~~
 
 This effort converts the inputs from images to video. The virtual car and it's movement is displayed using the python package 'turtle'. The main script is 'cep_project.py'.
+
+There are two included video input files: 'main_video.avi' with black block arrows and 'test_arrows.avi' with an assortment of different color and shape arrows. You can change the input file on line 14. You can create your own .avi video.
+
+The videos were too large to upload to Github. Downsized videos are available here: https://drive.google.com/drive/folders/1DG8XUOfh5Mwxo-S1R7HpRxcFUL6cOHWq?usp=sharing. They need to be in the Final_Project folder.
+
+These video input files have two result files: 'main_results.avi' and 'test_results.avi.' These show the results from the presentation.
