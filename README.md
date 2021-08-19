@@ -12,3 +12,7 @@ In addition to this, we have simulated speed of vehicle by displaying the images
 We have used openCV here as our primary package for computer vision. You can access the 2 cascade classifiers we used to identify both the left and right arrows, “cascade_left.xml” and “cascade_right.xml”. The original source of these cascade classifiers can be found here: https://github.com/ryangmolina/rpi-car-arrow-detection-using-cascade-classifier.
 
 We’ve also included all the input pictures of the intersections in the “input/12_arrow_pics” file and the correct output in the “output” file, for reference.
+
+~~~Christina Addendum~~~
+
+This effort converts the inputs from images to video. The virtual car and it's movement is displayed using the python package 'turtle'. The main script is 'cep_project.py'.
